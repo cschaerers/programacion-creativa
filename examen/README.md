@@ -102,3 +102,4 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 
 **Felipe Castillo**:  **3** No hay análisis de datos descrito, es bien general; **2** Se escriben funciones y no atributos; **1** no hay descripción de los métodos.
 
+**Ignacio Valdivielso**:  **3** Análisis general; **1** no se describen los atributos; **2** Solo se nombra no se describen.

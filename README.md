@@ -88,7 +88,7 @@ Para la primera clase se debe tener:
 | Gabriela Navarro | 4.0 | 3.4 | 3.7 | 3.9 | 3.8 |
 | Gianfranco Bozzo | 6.1 | 4.6 | 4.9 | 4.5 | 5.0 |
 | Ignacio Ffrench-Davis | 5.4 | 3.6 | 2.4 | 3.1 | 3.6 |
-| Ignacio Valdivielso | 5.4 | 3.8 | 4.3 | falta pdf | -- |
+| Ignacio Valdivielso | 5.4 | 3.8 | 4.3 | 3.5 | 4.3 |
 | Jose Miguel Arriagada | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 | Juan Ecclefield | 6.8 | 5.7 | 6.5 | 5.8 | 6.2 |
 | Maria Jose Courbis | 3.7 | 4.9 | 3.1 | 2.7 | 3.6 |
