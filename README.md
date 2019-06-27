@@ -80,23 +80,23 @@ Para la primera clase se debe tener:
 
 | Alumno           | Tarea 1 | Certamen 1 | Certamen 2 | Tarea 3 Preexamen | Promedio |
 | ---------------- | ------- | ---------- | ---------- | ------------- | ----------------- |
-| Alfredo Varela   | 4.2     | 4.6        | 2.8 |               |                   |
-| Cristobal Gatica | 4.2     | 5.1        | 2.8 |               |                   |
-| Cristobal Schaerer | 5.1 | 5.3 | 5.9 |  |  |
-| Felipe Castillo | 5.1 | 5.1 | 3.5 |  |  |
-| Francisca Mandiola | 2.3 | 3.4 | 2.6 |  |  |
-| Gabriela Navarro | 4.0 | 3.4 | 3.7 |  |  |
-| Gianfranco Bozzo | 6.1 | 4.6 | 4.9 |  |  |
-| Ignacio Ffrench-Davis | 5.4 | 3.6 | 2.4 |  |  |
-| Ignacio Valdivielso | 5.4 | 3.8 | 4.3 |  |  |
-| Jose Miguel Arriagada | 1.0 | 1.0 | 1.0 |  |  |
-| Juan Ecclefield | 6.8 | 5.7 | 6.5 |  |  |
-| Maria Jose Courbis | 3.7 | 4.9 | 3.1 |  |  |
-| Paula Cepeda | 5.8 | 5.3 | 3.9 |  |  |
-| Pedro Manasevich | 6.1 | 5.5 | 2.6 |  |  |
-| Raimundo Rufin | 5.8 | 5.1 | 4.6 |  |  |
-| Renata Vasquez | 5.6 | 5.3 | 3.5 |  |  |
-| Santiago Acuna | 1.0 | 1.0 | 1.0 |  |  |
-| Sebastian Camacho | 3.5 | 4.4 | 2.6 |  |  |
-| Valeria Miranda | 5.6 | 4.2 | 2.4 |  |  |
+| Alfredo Varela   | 4.2     | 4.6        | 2.8 | 3.1 | 3.7 |
+| Cristobal Gatica | 4.2     | 5.1        | 2.8 | 3.1 | 3.8 |
+| Cristobal Schaerer | 5.1 | 5.3 | 5.9 | 5.1 | 5.3 |
+| Felipe Castillo | 5.1 | 5.1 | 3.5 | 3.5 | 4.3 |
+| Francisca Mandiola | 2.3 | 3.4 | 2.6 | 2.7 | 2.8 |
+| Gabriela Navarro | 4.0 | 3.4 | 3.7 | 3.9 | 3.8 |
+| Gianfranco Bozzo | 6.1 | 4.6 | 4.9 | 4.5 | 5.0 |
+| Ignacio Ffrench-Davis | 5.4 | 3.6 | 2.4 | 3.1 | 3.6 |
+| Ignacio Valdivielso | 5.4 | 3.8 | 4.3 | falta pdf | -- |
+| Jose Miguel Arriagada | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Juan Ecclefield | 6.8 | 5.7 | 6.5 | 5.8 | 6.2 |
+| Maria Jose Courbis | 3.7 | 4.9 | 3.1 | 2.7 | 3.6 |
+| Paula Cepeda | 5.8 | 5.3 | 3.9 | 4.5 | 4.9 |
+| Pedro Manasevich | 6.1 | 5.5 | 2.6 | 3.9 | 4.5 |
+| Raimundo Rufin | 5.8 | 5.1 | 4.6 | 3.9 | 4.8 |
+| Renata Vasquez | 5.6 | 5.3 | 3.5 | 5.8 | 5.1 |
+| Santiago Acuna | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Sebastian Camacho | 3.5 | 4.4 | 2.6 | 2.7 | 3.3 |
+| Valeria Miranda | 5.6 | 4.2 | 2.4 | 2.7 | 3.7 |
 | Porcentajes | 25 | 25 | 25 | 25 | 100|
