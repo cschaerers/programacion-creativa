@@ -5,7 +5,7 @@
 Entrega **17 de junio**: Presentación de un PDF con los diagramas de: cómo se escribirá el programa; las visualizaciones con sus ejes, variables, tipografías y colores. 
 Duración de la presentación 3 minutos
 
-Entrega **24 de Junio** por medio de un **archivo zip con nombre del alumno enviado a n.troncoso@udd.cl** 
+Entrega **01 de Julio** por medio de un **archivo zip con nombre del alumno enviado a n.troncoso@udd.cl** 
 
 
 
@@ -65,4 +65,40 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 | El alumno responde la lógica de una parte de su programa     |       |
 | Escribe Orientado a Objetos                                  |       |
 | No hay faltas ortográficas                                   |       |
+
+------
+
+### Comentarios de Preexamen
+
+**Gabriela Navarro**: **3** No hay análisis de datos descrito; **2** no describe para qué serán usados los atributos y los mescla con funciones; **2** no hay descripción de los métodos, solos sus nombres.
+
+**Cristobal Gatica**: **3** No hay análisis de datos descrito, es bien general; **1** no describe atributos, mescla con funciones; **1** no hay descripción de los métodos.
+
+**María José Courbis**: **2** Bajo análisis de los datos; **1** no se describen los atributos; **1** no hay descripción de métodos.
+
+**Paula Cepeda**: **4** Existe un buen análisis y descripción de lo que tiene el examen; **3** se mezclan funciones con atributos (parciales); **1** No hay métodos descritos.
+
+**Francisca Mandiola**: **2** Escazo análisis de los datos; **1** no se describen los atributos; **1** no hay descripción de métodos.
+
+**Sebastián Camacho**: **2** Escazo análisis de los datos; **1** no se describen los atributos; **1** no hay descripción de métodos.
+
+**Gianfranco Bozzo**: **4** Buen análisis en relación a diagramas: **2** Se escriben funciones y no atributos; **2** Se nombran métodos y no se describen.
+
+**Juan Ecclefield**: **4** Buen análisis; **3** Existe una descricpión de atributos, titulada erróneamente; **3** Existe una descripción de métodos suficiente.
+
+**Pedro Manasevich**: **3** No hay un análisis, solo descripción general; **2** Se escriben funciones y no atributos; **2** Se nombran métodos y no se describen.
+
+**Raimundo Rufin**: **3** No hay un análisis, solo descripción general; **2** Se escriben funciones y no atributos; **2** Se nombran métodos y no se describen.
+
+**Renata Vásquez**: **3** Hay descripción general de lo que se hará; **3** Si bien se confunden funciones por atributos, hay información de lo que se hará con algunos atributos; **4** Bien descritos los métodos.
+
+**Cristobal Schaerer**: **3** Análisis general; **4** Bien la descripción de atributos; **2** Solo se nombra no se describen.
+
+**Ignacio Ffrench-Davis**: **2** Escazo análisis de los datos; **2** Se escriben funciones y no atributos; **1** no hay descripción de métodos.
+
+**Valeria Miranda**: **2** Bajo análisis de los datos; **1** no se describen los atributos; **1** no hay descripción de métodos.
+
+**Alfredo Varela**: **3** No hay análisis de datos descrito, es bien general; **1** no describe atributos, mescla con funciones; **1** no hay descripción de los métodos.
+
+**Felipe Castillo**:  **3** No hay análisis de datos descrito, es bien general; **2** Se escriben funciones y no atributos; **1** no hay descripción de los métodos.
 
