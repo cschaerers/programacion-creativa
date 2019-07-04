@@ -2,10 +2,10 @@
 
 # Examen: Visualización de Datos (2)
 
-Entrega **17 de junio**: Presentación de un PDF con los diagramas de: cómo se escribirá el programa; las visualizaciones con sus ejes, variables, tipografías y colores. 
+Entrega **17 de junio**: Presentación de un PDF con los diagramas de: cómo se escribirá el programa; las visualizaciones con sus ejes, variables, tipografías y colores.
 Duración de la presentación 3 minutos
 
-Entrega **01 de Julio** por medio de un **archivo zip con nombre del alumno enviado a n.troncoso@udd.cl** 
+Entrega **01 de Julio** por medio de un **archivo zip con nombre del alumno enviado a n.troncoso@udd.cl**
 
 
 
@@ -103,3 +103,9 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **Felipe Castillo**:  **3** No hay análisis de datos descrito, es bien general; **2** Se escriben funciones y no atributos; **1** no hay descripción de los métodos.
 
 **Ignacio Valdivielso**:  **3** Análisis general; **1** no se describen los atributos; **2** Solo se nombra no se describen.
+
+------
+
+### Comentarios de Examen
+
+**Ignacio Valdivielso**: 
