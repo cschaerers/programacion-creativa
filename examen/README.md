@@ -211,13 +211,23 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **1** No, existe aún una confusión absoluta de la Programación Orientada a Objetos, es importante que el alumno en algún momento de su carrera posterior a este examen, se acerque al profesor para una conversación sobre la disciplina.
 **4** No se percibieron a grandes rasgos
 
+**Gabriela Navarro**:
+**3** Solo nombre lo que ocurre en el programa, no hay detalles descriptivos de datos
+**2** Existen, son básicos, y no aportan a describir
+**1** No existe una visualización general
+**1** No se cumple
+**3** Se puede navegar, pero no en detalle absoluto
+**1** No puede generar cometarios en relación a la estructura del lenguaje que se escribe
+**1** No, existe aún una confusión absoluta de la Programación Orientada a Objetos, es importante que el alumno en algún momento de su carrera posterior a este examen, se acerque al profesor para una conversación sobre la disciplina.
+**4** No se percibieron a grandes rasgos
+
 
 **Cristobal Schaerer**:
-**Gabriela Navarro**:
+**4** En todas las categorías
 
+No presentó  
 **Cristobal Gatica**:
 **Ignacio Ffrench-Davis**:
-
 **Francisca Mandiola**:
 **Maria Jose Courbis**:
 **Sebastian Camacho**:

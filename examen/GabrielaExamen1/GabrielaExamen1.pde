@@ -5,12 +5,12 @@
 
 /* EN ESTE SKETCH APARECERAN DOS MANERAS DE VER LOS DATOS:
  - CON LA TECLA W, SE VISUALIZARÁ LA PRIMERA BASE DE DATOS. ESTA CONSTÁ
- DE UNA VISUALIZACÓN GENERAL QUE VENDRÍA SIENDO EL RANKING 
+ DE UNA VISUALIZACÓN GENERAL QUE VENDRÍA SIENDO EL RANKING
  (TOP 10 DE LOS BANCOS)
- - CON LA TECLA E, SE VISUALIZARÁ LA SEGUNDA BASE DE DATOS, QUE CONSTÁ DE UNA 
+ - CON LA TECLA E, SE VISUALIZARÁ LA SEGUNDA BASE DE DATOS, QUE CONSTÁ DE UNA
  VISUALIZACIÓN PARTICULAR QUE VENDRÍA SIENDO LA DE DINERO GANADO A TRAVÉS DE LOS
  MESES DURANTE UN PERIODO DE 8 AÑOS APROXIMADAMENTE.
- 
+
  */
 
 //VARIABLES GLOBALES
@@ -27,11 +27,11 @@ void setup() {
   size(1200, 900);                                            // TAMAÑO CANVAS
   background(0);                                              // COLOR CANVAS
 
-  // TIPOGRAFÍA  
+  // TIPOGRAFÍA
   uno = createFont("HelveticaNeue-Black", 25);                 // TÍTULO
   dos = createFont("HelveticaNeue", 20);                       // TÍTULO
-  tres = createFont("HelveticaNeue-Thin ", 10);                // LEYENDA, MES  
-  cuatro = createFont("HelveticaNeue-Thin ", 8);               // MONTO  
+  tres = createFont("HelveticaNeue-Thin ", 10);                // LEYENDA, MES
+  cuatro = createFont("HelveticaNeue-Thin ", 8);               // MONTO
 
 
   // SE CARGAN LAS TABLAS DE BASE DE DATOS CON CABEZERA
@@ -41,8 +41,8 @@ void setup() {
   // INICIALIZAMOS LOS ARRAY CON LA CANTIDAD DE FILAS DEL ARCHIVO
   int dinero = monto.getRowCount();                            // LARGO DE LA BASE
   int rankin = ranking.getRowCount();                          // LARGO DE LA BASE
-  b = new Banco[dinero];                    
-  b = new Banco[rankin];      
+  b = new Banco[dinero];
+  b = new Banco[rankin];
 
 
   // SE LEE LA TABLA 1 CON UN CONTADOR QUE PASARÁ POR CADA FILA DEL ARCHIVO
@@ -148,7 +148,7 @@ void setup() {
     float abril19 = row.getFloat("Apr_19");                     // DECLARACIÓN DE DATO
 
     // SE LEE LA TABLA CON UN CONTADOR QUE PASARÁ POR CADA FILA DEL ARCHIVO
-    for (int j = 0; j < ranking.getRowCount(); j++) { 
+    for (int j = 0; j < ranking.getRowCount(); j++) {
       TableRow row1 = ranking.getRow(j);                       //DECLARACIÓN TABLA
 
       String banestado = row1.getString("BANESTADO");                 // DECLARACIÓN DE DATO
@@ -175,19 +175,19 @@ void setup() {
 
 
       b[i] = new Banco(banestado, bbva, santander, banchile, credicorp, bice, bci, // INICIALIZACIÓN CLASE
-        larrainvial, consorcio, itau, nevasa, security, euroamerica, corpcap, tanner, 
-        btgpactual, scotia, finanzas, mbi, penta, deutsche, banco, enero12, febrero12, 
-        marzo12, abril12, mayo12, junio12, julio12, agosto12, septiembre12, octubre12, 
-        noviembre12, diciembre12, enero13, febrero13, marzo13, abril13, mayo13, junio13, 
-        julio13, agosto13, septiembre13, octubre13, noviembre13, diciembre13, enero14, 
-        febrero14, marzo14, abril14, mayo14, junio14, julio14, agosto14, septiembre14, 
-        octubre14, noviembre14, diciembre14, enero15, 
-        febrero15, marzo15, abril15, mayo15, junio15, julio15, agosto15, septiembre15, 
-        octubre15, noviembre15, diciembre15, enero16, febrero16, marzo16, abril16, mayo16, 
-        junio16, julio16, agosto16, septiembre16, octubre16, noviembre16, diciembre16, 
-        enero17, febrero17, marzo17, abril17, mayo17, junio17, julio17, agosto17, 
-        septiembre17, octubre17, noviembre17, diciembre17, enero18, febrero18, marzo18, 
-        abril18, mayo18, junio18, julio18, agosto18, septiembre18, octubre18, noviembre18, 
+        larrainvial, consorcio, itau, nevasa, security, euroamerica, corpcap, tanner,
+        btgpactual, scotia, finanzas, mbi, penta, deutsche, banco, enero12, febrero12,
+        marzo12, abril12, mayo12, junio12, julio12, agosto12, septiembre12, octubre12,
+        noviembre12, diciembre12, enero13, febrero13, marzo13, abril13, mayo13, junio13,
+        julio13, agosto13, septiembre13, octubre13, noviembre13, diciembre13, enero14,
+        febrero14, marzo14, abril14, mayo14, junio14, julio14, agosto14, septiembre14,
+        octubre14, noviembre14, diciembre14, enero15,
+        febrero15, marzo15, abril15, mayo15, junio15, julio15, agosto15, septiembre15,
+        octubre15, noviembre15, diciembre15, enero16, febrero16, marzo16, abril16, mayo16,
+        junio16, julio16, agosto16, septiembre16, octubre16, noviembre16, diciembre16,
+        enero17, febrero17, marzo17, abril17, mayo17, junio17, julio17, agosto17,
+        septiembre17, octubre17, noviembre17, diciembre17, enero18, febrero18, marzo18,
+        abril18, mayo18, junio18, julio18, agosto18, septiembre18, octubre18, noviembre18,
         diciembre18, enero19, febrero19, marzo19, abril19);
     }
   }
@@ -228,7 +228,7 @@ void draw() {
     text("01 - Julio - 2019", 545, 480);
     text("Programación Creativa", 520, 500);
     text("Gabriela Navarro Risopatrón", 495, 520);
-    text("Ayudante: Macarena Ferrer", 20, 60);  
+    text("Ayudante: Macarena Ferrer", 20, 60);
     text("Profesor: Nicolás Troncoso", 20, 30);
     text("Teclas para cambiar la visualización: q - w - e ", 750, 870);
   }
@@ -238,7 +238,7 @@ void draw() {
 
 
 // INICIALIZACIÓN VOID KEYPRESSED
-void keyPressed() {  
+void keyPressed() {
   if (key == 's') {                        // SI LA TECLA "s" SE APRETA
     guardarTIFF = true;                    // GUARDA EL PROCESO
     saveFrame("examengabriela.tiff");
