@@ -150,6 +150,16 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **3** Falta mejorar el diseño de métodos, hay algunos redundantes, y otros que no se usan.
 **3** Faltan tildes
 
+**Juan Ecclefield**:
+**4** Explica de buena manera como se desarrolló el proyecto y su uso
+**4** Existen en su mayoría y en buena descripción
+**4** Completo
+**4** Completo
+**4** Completo
+**4** Comenta en detalle describiéndo la lógica detrás de su problema
+**4** Diseña bien oprientado a objetos, solo falta optimizar código
+**4** No se percibieron a grandes rasgos
+
 
 
 
@@ -162,7 +172,6 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **Gabriela Navarro**:
 **Ignacio Ffrench-Davis**:
 **Ignacio Valdivielso**:
-**Juan Ecclefield**:
 **Maria Jose Courbis**:
 **Paula Cepeda**:
 **Pedro Manasevich**:
