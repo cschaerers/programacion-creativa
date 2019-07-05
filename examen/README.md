@@ -160,6 +160,16 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **4** Diseña bien oprientado a objetos, solo falta optimizar código
 **4** No se percibieron a grandes rasgos
 
+**Valeria Miranda**:
+**1** No hay
+**2** Existen, son básicos, y no aportan a describir
+**2** Existe en solo un año
+**1** No se cumple
+**1** No se cumple
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**2** Tiene código muy complejo de entener, al no asistir conscientemente a las clases se cae en errores de contenido por fuera que merman en la capacidad del alumno
+**4** No se percibieron a grandes rasgos
+
 
 
 
@@ -178,4 +188,3 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **Raimundo Rufin**:
 **Renata Vasquez**:
 **Sebastian Camacho**:
-**Valeria Miranda**:

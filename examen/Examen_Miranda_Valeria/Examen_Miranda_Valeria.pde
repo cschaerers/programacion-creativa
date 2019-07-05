@@ -1,4 +1,4 @@
-//Examen Programación Creativa 
+//Examen Programación Creativa
 //Profesor: Nicolás Troncoso
 //Alumna: Valeria Miranda
 //03-07-2019
@@ -125,7 +125,7 @@ void draw() {
   ellipse(800, 800, 20, 20);
   fill(azulll); //DICIEMBRE
   ellipse(850, 800, 20, 20);
-  popMatrix();  
+  popMatrix();
   //
 
 
