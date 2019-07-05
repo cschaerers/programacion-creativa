@@ -180,11 +180,31 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **1** No, existe aún una confusión absoluta de la Programación Orientada a Objetos, es importante que el alumno en algún momento de su carrera posterior a este examen, se acerque al profesor para una conversación sobre la disciplina.
 **3** hay faltas de sintáxis
 
+**Pedro Manasevich**:
+**3** Describe un examen diferente al que se pidio, los objetivos son diferentes a las soluciones planteadas
+**3** Existen comentarios descriptivos solo en algunos bloques de código
+**1** No existe una visualización general
+**1** No se cumple
+**3** Es parcial y tiene errores de Visualización
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**1** No, existe aún una confusión absoluta de la Programación Orientada a Objetos, es importante que el alumno en algún momento de su carrera posterior a este examen, se acerque al profesor para una conversación sobre la disciplina.
+**3** hay faltas de sintáxis
+
+
+**Raimundo Rufin**:
+**1** No hay
+**3** Existen comentarios descriptivos solo en algunos bloques de código
+**4** Existe el ranking fluctuante a lo largo del tiempo
+**3** Existe mayoritariamente
+**3** Se puede navegar, pero no en detalle absoluto
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**1** No, existe aún una confusión absoluta de la Programación Orientada a Objetos, es importante que el alumno en algún momento de su carrera posterior a este examen, se dedique a ahondar en conocimientos que de aportarán mucho más de lo que cree saber.
+**3** Se perciben algunas
+
+
 
 
 **Cristobal Schaerer**:
-**Pedro Manasevich**:
-**Raimundo Rufin**:
 **Renata Vasquez**:
 **Gabriela Navarro**:
 
