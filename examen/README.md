@@ -108,4 +108,44 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 
 ### Comentarios de Examen
 
-**Ignacio Valdivielso**: 
+
+**Ignacio Valdivielso**:
+**2** No está escrito bajo la notacióin de un archivo README de extensión **md**;
+**3** Existen comentarios descriptivos solo en algunos bloques de código;
+**1** No existe una visualización general
+**2** Se distorciona la dimensión real del dato (con anillos de color de fondo)
+**4** Se puede navegar por todos los bancos y volver
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**3** Falta mejorar el diseño de métodos, hay algunos redundantes, y otros que no se usan.
+**3** Hay doble espacios
+
+
+**Alfredo Varela**:
+**3** Describe precariamente lo que ocurre en el programa, no hay detalles descriptivos de datos
+**3** Existen comentarios descriptivos solo en algunos bloques de código
+**1** No existe una visualización general
+**2** No se puede ver individualmente la cantidad de cada banco en cada mes
+**4** Se puede navegar por todos los bancos y volver
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**2** Tiene código muy complejo de entener, al no asistir conscientemente a las clases se cae en errores de contenido por fuera que merman en la capacidad del alumno
+**2** Hay faltas de palabras más esritas y tildes no redactados
+
+**Cristobal Gatica**:
+
+
+
+**Cristobal Schaerer**:
+**Felipe Castillo**:
+**Francisca Mandiola**:
+**Gabriela Navarro**:
+**Gianfranco Bozzo**:
+**Ignacio Ffrench-Davis**:
+**Ignacio Valdivielso**:
+**Juan Ecclefield**:
+**Maria Jose Courbis**:
+**Paula Cepeda**:
+**Pedro Manasevich**:
+**Raimundo Rufin**:
+**Renata Vasquez**:
+**Sebastian Camacho**:
+**Valeria Miranda**:
