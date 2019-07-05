@@ -130,12 +130,24 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **2** Tiene código muy complejo de entener, al no asistir conscientemente a las clases se cae en errores de contenido por fuera que merman en la capacidad del alumno
 **2** Hay faltas de palabras más esritas y tildes no redactados
 
+**Felipe Castillo**:
+**4** Explica de buena manera como se desarrolló el proyecto y su uso
+**4** Existen en su mayoría y en buena descripción
+**4** Existe el ranking fluctuante a lo largo del tiempo
+**1** No se cumple
+**1** No se cumple
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**3** Falta mejorar el diseño de métodos, hay algunos redundantes, y otros que no se usan.
+**4** No se percibieron a grandes rasgos
+
+
+
+
 **Cristobal Gatica**:
 
 
 
 **Cristobal Schaerer**:
-**Felipe Castillo**:
 **Francisca Mandiola**:
 **Gabriela Navarro**:
 **Gianfranco Bozzo**:
