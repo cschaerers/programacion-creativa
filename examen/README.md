@@ -140,6 +140,16 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **3** Falta mejorar el diseño de métodos, hay algunos redundantes, y otros que no se usan.
 **4** No se percibieron a grandes rasgos
 
+**Gianfranco Bozzo**:
+**4** Explica de buena manera como se desarrolló el proyecto y su uso
+**4** Existen en su mayoría y en buena descripción
+**4** Existe el ranking fluctuante a lo largo del tiempo
+**1** No se cumple
+**1** No se cumple
+**4** Comenta en detalle describiéndo la lógica detrás de su problema
+**3** Falta mejorar el diseño de métodos, hay algunos redundantes, y otros que no se usan.
+**3** Faltan tildes
+
 
 
 
@@ -150,7 +160,6 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **Cristobal Schaerer**:
 **Francisca Mandiola**:
 **Gabriela Navarro**:
-**Gianfranco Bozzo**:
 **Ignacio Ffrench-Davis**:
 **Ignacio Valdivielso**:
 **Juan Ecclefield**:
