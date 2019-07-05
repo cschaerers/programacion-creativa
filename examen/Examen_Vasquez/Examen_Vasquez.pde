@@ -9,7 +9,7 @@
 Clase []objeto;
 
 //IMÁGENES
-PImage portada; 
+PImage portada;
 PImage valores;
 
 //TIPOGRAFÍAS
@@ -22,8 +22,8 @@ Table tabla;
 float espacioX, espacioY;
 String x;
 //rangos
-int inicioMes = 0; //rango para definir princio de un mes 
-int finMes = 11; //Rango para definir final de un mes 
+int inicioMes = 0; //rango para definir princio de un mes
+int finMes = 11; //Rango para definir final de un mes
 int rangoAnio; //Rango para separar data por años
 //contadores
 int visualizacionBanco;
@@ -48,10 +48,10 @@ void setup() {
   //Llamamos a los objetos
   objeto = new Clase[84]; // El número 84 hace rreferencia a la cantidad de filas de la base de datos, en este caso son 84 (sin el header)
 
-  for (int i= 0; i<tabla.getRowCount(); i++) { //Hacemos una for loop para leer todos los datos de la tabla 
+  for (int i= 0; i<tabla.getRowCount(); i++) { //Hacemos una for loop para leer todos los datos de la tabla
 
     TableRow row = tabla.getRow(i); // Inicializamos la variable para poder llamar los datos de cada fila "row" con sus respectivos nombres (en este caso determinados por el header)
-    String Fechas = row.getString("Fechas"); //Se utiliza string porque las casillas contienen textos y no números 
+    String Fechas = row.getString("Fechas"); //Se utiliza string porque las casillas contienen textos y no números
     float BancoEstado = row.getFloat ("BANESTADO");
     float Bbva = row.getFloat ("BBVA");
     float Santander = row.getFloat ("SANTANDER");
@@ -77,8 +77,8 @@ void setup() {
     objeto[i] = new Clase (Fechas, BancoEstado, Bbva, Santander, BanChile, Credicorp, Bice, Bci, LarrainVial, Consorcio, Itau, Nevasa, Security, EuroAmerica, Corpcap, Tanner, Btg, Scotia, Finanzas, Mbi, Penta, Deutsche, x);
   }
 
-  // Declaramos el valor inicial de los contadores, estos nos permitiran navegar por los valores de la tabla a través del teclado 
-  bancos = 1; 
+  // Declaramos el valor inicial de los contadores, estos nos permitiran navegar por los valores de la tabla a través del teclado
+  bancos = 1;
   anios = 1;
   visualizacionBanco = 0;
 }
@@ -94,38 +94,38 @@ void draw() {
   //A continuación, fijamos rangos que nos permitan leer la base de datos de 12 en 12, esto para poder separar las visualizaciones de año en año. Posteriormente este también nos servirá como contador.
 
   if (rangoAnio == 1) {
-    inicioMes = 0; 
+    inicioMes = 0;
     finMes  = 11;
   }
   if (rangoAnio == 2) {
-    inicioMes = 12; 
+    inicioMes = 12;
     finMes  = 23;
   }
   if (rangoAnio == 3) {
-    inicioMes = 24; 
+    inicioMes = 24;
     finMes  = 35;
   }
   if (rangoAnio == 4) {
-    inicioMes = 36; 
+    inicioMes = 36;
     finMes  = 47;
   }
   if (rangoAnio == 5) {
-    inicioMes = 48; 
+    inicioMes = 48;
     finMes  = 59;
   }
   if (rangoAnio == 6) {
-    inicioMes = 60; 
+    inicioMes = 60;
     finMes  = 71;
   }
   if (rangoAnio == 7) {
-    inicioMes = 72; 
+    inicioMes = 72;
     finMes  = 83;
   }
 
 
   //for (int i=0; i<objeto.length; i++) {
   for (int i=0; i<1; i++) {
-    objeto[i].textoBancos(bancos); 
+    objeto[i].textoBancos(bancos);
     objeto[i].textoAnio(anios);
   }
 
@@ -135,9 +135,9 @@ void draw() {
 
     //BancoEstado
     if ( visualizacionBanco ==0) {
-      objeto[l].bancoEstado(i*3); // Aquí se múltiplica i lo que me permite espaciar más las elipses 
+      objeto[l].bancoEstado(i*3); // Aquí se múltiplica i lo que me permite espaciar más las elipses
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -146,7 +146,7 @@ void draw() {
     if ( visualizacionBanco ==1) {
       objeto[l].bancoBbva(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -155,7 +155,7 @@ void draw() {
     if ( visualizacionBanco ==2) {
       objeto[l].bancoSantander(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -164,7 +164,7 @@ void draw() {
     if ( visualizacionBanco ==3) {
       objeto[l].bancoBanChile(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -173,7 +173,7 @@ void draw() {
     if ( visualizacionBanco ==4) {
       objeto[l].bancoCrediCorp(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -182,7 +182,7 @@ void draw() {
     if ( visualizacionBanco ==5) {
       objeto[l].bancoBice(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -191,7 +191,7 @@ void draw() {
     if ( visualizacionBanco ==6) {
       objeto[l].bancoBci(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -200,7 +200,7 @@ void draw() {
     if ( visualizacionBanco ==7) {
       objeto[l].bancoLarrainVial(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -209,16 +209,16 @@ void draw() {
     if ( visualizacionBanco ==8) {
       objeto[l].bancoConsorcio(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
 
-    //BancoItau 
+    //BancoItau
     if ( visualizacionBanco ==9) {
       objeto[l].bancoItau(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -227,7 +227,7 @@ void draw() {
     if ( visualizacionBanco ==10) {
       objeto[l].bancoNevasa(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -236,7 +236,7 @@ void draw() {
     if ( visualizacionBanco ==11) {
       objeto[l].bancoSecurity(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -245,7 +245,7 @@ void draw() {
     if ( visualizacionBanco ==12) {
       objeto[l].bancoEuroAmerica(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -254,7 +254,7 @@ void draw() {
     if ( visualizacionBanco ==13) {
       objeto[l].bancoCorpcap(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -263,7 +263,7 @@ void draw() {
     if ( visualizacionBanco ==14) {
       objeto[l].bancoTanner(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -272,7 +272,7 @@ void draw() {
     if ( visualizacionBanco ==15) {
       objeto[l].bancoBtg(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -281,7 +281,7 @@ void draw() {
     if ( visualizacionBanco ==16) {
       objeto[l].bancoScotia(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -290,7 +290,7 @@ void draw() {
     if ( visualizacionBanco ==17) {
       objeto[l].bancoFinanzas(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -299,7 +299,7 @@ void draw() {
     if ( visualizacionBanco ==18) {
       objeto[l].bancoMbi(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -308,7 +308,7 @@ void draw() {
     if ( visualizacionBanco ==19) {
       objeto[l].bancoPenta(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -317,7 +317,7 @@ void draw() {
     if ( visualizacionBanco ==20) {
       objeto[l].bancoDeutsche(i*3);
       l++;
-      if (l > finMes ) { 
+      if (l > finMes ) {
         l = inicioMes;
       }
     }
@@ -335,13 +335,13 @@ void display() { //Función para el fondo del canvas
 
   String [] mes = {"ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEPT", "OCT", "NOV", "DIC"}; //generamos un array de las posiciones del ranling
 
-  espacioX = width/ (12+1); //Esto nos permitirá dividir el canvas en 13 espacios iguales para distribur los 12 meses en el canvas equitativamente 
+  espacioX = width/ (12+1); //Esto nos permitirá dividir el canvas en 13 espacios iguales para distribur los 12 meses en el canvas equitativamente
   espacioY = 150; //esto nos permite definir los margenes que tendrá el eje Y
 
   for (int m=0; m<mes.length; m++) { //13 espacios, para espaciar los 12 meses  en el ancho del canvas.
     float posX = espacioX*2.5 + (espacioX * m/1.2); // X es nuestro contador y queremos que vaya contando hacia la derecha desde nuestro margen en x que es espacioX
     strokeWeight(1/2);
-    stroke(255); 
+    stroke(255);
     line(posX, height - espacioY, posX, espacioY); //Esto para definir los limites del eje Y
     textFont(ProductSansBold, 15);
     fill(255);
@@ -352,7 +352,7 @@ void display() { //Función para el fondo del canvas
 void keyPressed() { //función que nos permite movernos entre las distintas visualizaciones a través del teclado.
 
   //Para ravanzar un mes, los contadores restan cada vez que apreto la flecha izquierda
-  if (keyCode == RIGHT) { 
+  if (keyCode == RIGHT) {
     anios++;
     rangoAnio++;
   }
@@ -372,7 +372,7 @@ void keyPressed() { //función que nos permite movernos entre las distintas visu
     anios = 7;
   }
 
-  if (rangoAnio > 7) { 
+  if (rangoAnio > 7) {
     rangoAnio = 1;
   }
   if (rangoAnio < 1) {
@@ -400,5 +400,5 @@ void keyPressed() { //función que nos permite movernos entre las distintas visu
 /*
 void portada() {
  image(portada, 0, 0);
- } 
+ }
  */
