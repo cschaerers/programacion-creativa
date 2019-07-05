@@ -78,7 +78,7 @@ Para la primera clase se debe tener:
 
 ## Notas
 
-Link a comentarios sobre el examan
+[Link a comentarios sobre el examen](https://github.com/widelyresearch/programacion-creativa/tree/master/examen#comentarios-de-examen)
 
 | Alumno           | Tarea 1 | Certamen 1 | Certamen 2 | Tarea 3 Preexamen | Promedio | Nota Examen* | Nota Final |
 | ---------------- | ------- | ---------- | ---------- | ------------- | ----------------- | ---------------- | ---------------- |
