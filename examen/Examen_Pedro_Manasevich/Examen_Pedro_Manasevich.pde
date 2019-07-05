@@ -19,9 +19,9 @@ Usar teclas:
 
 Flecha Derecha: num ++ (Se le suma 1 al contador, permita ver los meses);
 Flecha Izquierda:num -- (Se le resta 1 al contador, permita ver los meses);
- 
- 
- 
+
+
+
  */
 
 

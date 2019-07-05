@@ -1,4 +1,4 @@
-/* 
+/*
 EXAMEN FINAL PROGRAMACIÓN CREATIVA
 PROFESOR: NICOLÁS TRONCOSO _ AYUDANTE: MACARENA FERRER
 ALUMNO: PAULA CEPEDA VALENZUELA
@@ -7,20 +7,20 @@ FECHA: JULIO 2019
 
  PAUTA Y REQUERIMIENTOS:
     -- Lee desde un archivo externo
-    -- Crea un constructor en base a el cabezal de la base datos      
+    -- Crea un constructor en base a el cabezal de la base datos
     -- Crea un método para un dato
-    -- Itera por toda la lista de objetos       
+    -- Itera por toda la lista de objetos
     -- Visualización particular
     -- Cantidad de dinero ganado navegable por cada mes
     -- Cambio de bancos por el teclado
-       
+
  INSTRUCCIONES:
 
  INSTRUCCIONES:
  1. Presiona Barra de Espacio para iniciar la visualización
  2. Navega a través de los bancos con las flechas ARRIBA y ABAJO
  3. Navega a través de los años con las flechas DERECHA e IZQUIERDA.
- 
+
  */
 
 //clase

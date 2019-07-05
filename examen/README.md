@@ -170,21 +170,27 @@ Existen dos bases de datos **banco** y **clima** cada una tiene requerimientos e
 **2** Tiene código muy complejo de entener, al no asistir conscientemente a las clases se cae en errores de contenido por fuera que merman en la capacidad del alumno
 **4** No se percibieron a grandes rasgos
 
-
-
-
-**Cristobal Gatica**:
+**Paula Cepeda**:
+**3** Describe un examen diferente al que se pidio, los objetivos son diferentes a las soluciones planteadas
+**3** Existen comentarios descriptivos solo en algunos bloques de código
+**1** No existe una visualización general
+**1** No se cumple
+**3** Es parcial y tiene errores de Visualización
+**3** Comenta sus problemas correctamente, aún faltando lenguaje técnico
+**1** No, existe aún una confusión absoluta de la Programación Orientada a Objetos, es importante que el alumno en algún momento de su carrera posterior a este examen, se acerque al profesor para una conversación sobre la disciplina.
+**3** hay faltas de sintáxis
 
 
 
 **Cristobal Schaerer**:
-**Francisca Mandiola**:
-**Gabriela Navarro**:
-**Ignacio Ffrench-Davis**:
-**Ignacio Valdivielso**:
-**Maria Jose Courbis**:
-**Paula Cepeda**:
 **Pedro Manasevich**:
 **Raimundo Rufin**:
 **Renata Vasquez**:
+**Gabriela Navarro**:
+
+**Cristobal Gatica**:
+**Ignacio Ffrench-Davis**:
+
+**Francisca Mandiola**:
+**Maria Jose Courbis**:
 **Sebastian Camacho**:
