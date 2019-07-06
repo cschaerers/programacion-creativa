@@ -1,0 +1,203 @@
+class Clase{
+  String banco;
+  int[] meses = new int[88];
+  float enero12, febrero12, marzo12, abril12, mayo12, junio12, julio12, agosto12, septiembre12, octubre12, noviembre12, diciembre12;
+  int enero13, febrero13, marzo13, abril13, mayo13, junio13, julio13, agosto13, septiembre13, octubre13, noviembre13, diciembre13;
+  int enero14, febrero14, marzo14, abril14, mayo14, junio14, julio14, agosto14, septiembre14, octubre14, noviembre14, diciembre14;
+  int enero15, febrero15, marzo15, abril15, mayo15, junio15, julio15, agosto15, septiembre15, octubre15, noviembre15, diciembre15;
+  int enero16, febrero16, marzo16, abril16, mayo16, junio16, julio16, agosto16, septiembre16, octubre16, noviembre16, diciembre16;
+  int enero17, febrero17, marzo17, abril17, mayo17, junio17, julio17, agosto17, septiembre17, octubre17, noviembre17, diciembre17;
+  int enero18, febrero18, marzo18, abril18, mayo18, junio18, julio18, agosto18, septiembre18, octubre18, noviembre18, diciembre18;
+  int enero19, febrero19, marzo19, abril19;
+
+  Clase(String banco,float enero12,int febrero12,int marzo12,int abril12,int mayo12,int junio12, int julio12, int agosto12,int septiembre12, int octubre12, int noviembre12, int diciembre12,
+    int enero13,int febrero13, int marzo13, int abril13, int mayo13, int junio13, int julio13, int agosto13, int septiembre13, int octubre13, int noviembre13, int diciembre13,
+    int enero14,int  febrero14,int marzo14, int abril14, int mayo14, int junio14, int julio14, int agosto14, int septiembre14, int octubre14, int noviembre14, int diciembre14,
+    int enero15,int  febrero15,int marzo15, int abril15, int mayo15, int junio15, int julio15, int agosto15, int septiembre15, int octubre15, int noviembre15, int diciembre15,
+    int enero16,int  febrero16,int marzo16, int abril16, int mayo16, int junio16, int julio16, int agosto16, int septiembre16, int octubre16, int noviembre16, int diciembre16,
+    int enero17,int  febrero17,int marzo17, int abril17, int mayo17, int junio17, int julio17, int agosto17, int septiembre17, int octubre17, int noviembre17, int diciembre17,
+    int enero18,int  febrero18,int marzo18, int abril18, int mayo18, int junio18, int julio18, int agosto18, int septiembre18, int octubre18, int noviembre18, int diciembre18,
+    int enero19,int  febrero19,int marzo19, int abril19){
+
+      /*2012*/
+      this.banco = banco;
+      this.enero12=map(enero12,1,21,40,450);
+      this.febrero12=febrero12;
+      this.marzo12=marzo12;
+      this.abril12=abril12;
+      this.mayo12=mayo12;
+      this.junio12=junio12;
+      this.julio12=julio12;
+      this.agosto12=agosto12;
+      this.septiembre12=septiembre12;
+      this.octubre12=octubre12;
+      this.noviembre12=noviembre12;
+      this.diciembre12=diciembre12;
+      /*2013*/
+      this.enero13=enero13;
+      this.febrero13=febrero13;
+      this.marzo13=marzo13;
+      this.abril13=abril13;
+      this.mayo13=mayo13;
+      this.junio13=junio13;
+      this.julio13=julio13;
+      this.agosto13=agosto13;
+      this.septiembre13=septiembre13;
+      this.octubre13=octubre13;
+      this.noviembre13=noviembre13;
+      this.diciembre13=diciembre13;
+      /*2014*/
+      this.enero14=enero14;
+      this.febrero14=febrero14;
+      this.marzo14=marzo14;
+      this.abril14=abril14;
+      this.mayo14=mayo14;
+      this.junio14=junio14;
+      this.julio14=julio14;
+      this.agosto14=agosto14;
+      this.septiembre14=septiembre14;
+      this.octubre14=octubre14;
+      this.noviembre14=noviembre14;
+      this.diciembre14=diciembre14;
+      /*2015*/
+      this.enero15=enero15;
+      this.febrero15=febrero15;
+      this.marzo15=marzo15;
+      this.abril15=abril15;
+      this.mayo15=mayo15;
+      this.junio15=junio15;
+      this.julio15=julio15;
+      this.agosto15=agosto15;
+      this.septiembre15=septiembre15;
+      this.octubre15=octubre15;
+      this.noviembre15=noviembre15;
+      this.diciembre15=diciembre15;
+      /*2016*/
+      this.enero16=enero16;
+      this.febrero16=febrero16;
+      this.marzo16=marzo16;
+      this.abril16=abril16;
+      this.mayo16=mayo16;
+      this.junio16=junio16;
+      this.julio16=julio16;
+      this.agosto16=agosto16;
+      this.septiembre16=septiembre16;
+      this.octubre16=octubre16;
+      this.noviembre16=noviembre16;
+      this.diciembre16=diciembre16;
+      /*2017*/
+      this.enero17=enero17;
+      this.febrero17=febrero17;
+      this.marzo17=marzo17;
+      this.abril17=abril17;
+      this.mayo17=mayo17;
+      this.junio17=junio17;
+      this.julio17=julio17;
+      this.agosto17=agosto17;
+      this.septiembre17=septiembre17;
+      this.octubre17=octubre17;
+      this.noviembre17=noviembre17;
+      this.diciembre17=diciembre17;
+      /*2018*/
+      this.enero18=enero18;
+      this.febrero18=febrero18;
+      this.marzo18=marzo18;
+      this.abril18=abril18;
+      this.mayo18=mayo18;
+      this.junio18=junio18;
+      this.julio18=julio18;
+      this.agosto18=agosto18;
+      this.septiembre18=septiembre18;
+      this.octubre18=octubre18;
+      this.noviembre18=noviembre18;
+      this.diciembre18=diciembre18;
+      /*2019*/
+      this.enero19=enero19;
+      this.febrero19=febrero19;
+      this.marzo19=marzo19;
+      this.abril19=abril19;
+
+      this.meses = {enero_12, feb_12, mar_12,abri_12,mayo_12,jun_12,jul_12,agos_12,sept_12,oct_12,nov_12,dici_12,
+        enero_13, feb_13, mar_13,abri_13,mayo_13,jun_13,jul_13,agos_13,sept_13,oct_13,nov_13,dici_13,
+        enero_14, feb_14, mar_14,abri_14,mayo_14,jun_14,jul_14,agos_14,sept_14,oct_14,nov_14,dici_14,
+        enero_15, feb_15, mar_15,abri_15,mayo_15,jun_15,jul_15,agos_15,sept_15,oct_15,nov_15,dici_15,
+        enero_16, feb_16, mar_16,abri_16,mayo_16,jun_16,jul_16,agos_16,sept_16,oct_16,nov_16,dici_16,
+        enero_17, feb_17, mar_17,abri_17,mayo_17,jun_17,jul_17,agos_17,sept_17,oct_17,nov_17,dici_17,
+        enero_18, feb_18, mar_18,abri_18,mayo_18,jun_18,jul_18,agos_18,sept_18,oct_18,nov_18,dici_18,
+        enero_19, feb_19, mar_19,abri_19};
+      }
+
+
+      void ranking(String s, int i){
+        if(s.equals("BANESTADO")) {
+          stroke(255,0,0);
+        }
+        if(s.equals("BBVA")){
+          stroke(0,255,0);
+        }
+        if(s.equals("SANTANDER")){
+          stroke(255,0,0);
+        }
+        if(s.equals("BANCHILE")){
+          stroke(255,0,0);
+        }
+        if(s.equals("CREDICORP")){
+          stroke(255,0,0);
+        }
+        if(s.equals("BICE")){
+          stroke(255,0,0);
+        }
+        if(s.equals("BCI")){
+          stroke(255,0,0);
+        }
+        if(s.equals("LARRAIN VIAL")){
+          stroke(255,0,0);
+        }
+        if(s.equals("CONSORCIO")){
+          stroke(255,0,0);
+        }
+        if(s.equals("ITAU")){
+          stroke(255,0,0);
+        }
+        if(s.equals("NEVASA")){
+          stroke(255,0,0);
+        }
+        if(s.equals("SECURITY")){
+          stroke(255,0,0);
+        }
+        if(s.equals("EUROAMERICA")){
+          stroke(255,0,0);
+        }
+        if(s.equals("CORPCAP")){
+          stroke(255,0,0);
+        }
+        if(s.equals("TANNER")){
+          stroke(255,0,0);
+        }
+        if(s.equals("BTG PACTUAL")){
+          stroke(255,0,0);
+        }
+        if(s.equals("SCOTIA")){
+          stroke(255,0,0);
+        }
+        if(s.equals("FINANZAS")){
+          stroke(255,0,0);
+        }
+        if(s.equals("MBI")){
+          stroke(255,0,0);
+        }
+        if(s.equals("PENTA")){
+          stroke(255,0,0);
+        }
+        if(s.equals("DEUTSCHE")){
+          stroke(255,0,0);
+        }
+        ellipse(width/2,height/2,meses[i], meses[i]);
+        stroke(255,0,0);
+      }
+
+      void ano(){
+
+
+      }
+    }
